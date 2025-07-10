@@ -1,0 +1,31 @@
+.menu-general {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.nav-bar-title {
+    margin-left: 5rem;
+}
+
+.contenedor-links {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 3rem;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #40413e;
+}
+
+.link a:hover {
+    cursor: pointer;
+    font-weight: 600;
+}

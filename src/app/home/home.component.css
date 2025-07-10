@@ -1,0 +1,329 @@
+a {
+    text-decoration: none;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.title-info {
+    width: 50%;
+}
+
+.title-info h1 {
+    font-size: 3rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 1rem;
+}
+
+.title-info p {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.title-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.title-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.6rem 0.8rem;
+    width: 9rem;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: 1px solid gray;
+}
+
+.title-button:hover {
+    cursor: pointer;
+}
+
+.title-button img {
+    width: 20px;
+    height: 20px;
+}
+
+#contactar {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+#contactar:hover {
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+#cv {
+    background-color: white;
+    color: black;
+
+}
+
+#cv:hover {
+    background-color: rgb(247, 245, 245);
+}
+
+.title-rrss {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.title-rrss button {
+    background-color: white;
+    border: none;
+}
+
+.title-rrss button:hover {
+    cursor: pointer;
+}
+
+.title-rrss img {
+    width: 20px;
+    height: 20px;
+}
+
+#mail_icon {
+    width: 27px;
+    height: 27px;
+}
+
+.title-img {
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.title-img img {
+    width: 20rem;
+    border-radius: 20%;
+}
+
+.sobre-mi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.sobre-mi-texto {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobre-mi-texto h2 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.sobre-mi-texto p {
+    line-height: 2;
+}
+
+.sobre-mi-cuadros {
+    width: 80%;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cuadro {
+    padding: 1rem 2rem;
+    width: 12rem;
+    height: auto;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+
+.cuadro img {
+    width: 40px;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tecnologias-title {
+    text-align: center;
+}
+
+.tecnologias-grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tecnologia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(189, 189, 189);
+    text-align: center;
+    gap: 1rem;
+}
+
+.tecnologia img {
+    width: 40px;
+    height: 40px;
+}
+
+.tecnologia-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologia-texto h4 {
+    margin-bottom: 0;
+}
+
+.tecnologia-texto p {
+    margin-top: 0.3rem;
+}
+
+.tecnologia:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proyectos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectos p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.proyecto-grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5rem;
+    gap: 1rem;
+}
+
+.proyecto-card {
+    width: 85%;
+    height: 25rem;
+    padding: 1.5rem;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.proyecto-card:hover {
+    transform: scale(1.02);
+}
+
+.proyecto-img img {
+    width: 100%;
+}
+
+.proyecto-title h3 {
+    margin-bottom: 0;
+}
+
+.proyecto-title p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.proyecto-tecnologias {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+.proyecto-tecnologias p {
+    padding: 0.2rem 0.9rem;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10%;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.proyecto-tecnologias p:hover {
+    cursor: pointer;
+}
+
+.proyecto-botones {
+    display: flex;
+    gap: 2rem;
+    padding: 0.2rem;
+}
+
+.contacto {
+    width: 100%;
+    padding: 3rem;
+    background-color: #F4F4F580;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-text{
+    text-align: center;
+}
+
+.contacto-text h2{
+    font-size: 2rem;
+}
+
+.contacto-text p{
+    margin-bottom: 1rem;
+}
+
+.contacto-buttons {
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.contacto-buttons button{
+    font-size: 0.7rem;
+}
+
+.contacto-buttons img{
+    width: 1rem;
+    height: 1rem;
+}
