@@ -3,10 +3,11 @@
         <h2>Mi Portafolio</h2>
     </div>
     <div class="contenedor-links">
-        <div class="link"><a routerLink = "/">Link 1</a></div>
-        <div class="link"><a routerLink = "/">Link 2</a></div>
-        <div class="link"><a routerLink = "/">Link 3 </a></div>
-        <div class="link"><a routerLink = "/">Link 4</a></div>
+        <div class="link"><a [routerLink]="['/home']" fragment="sobre-mi">Sobre
+                mí</a>
+        </div>
+        <div class="link"><a [routerLink]="['/home']" fragment="tecnologias">Tecnologías</a></div>
+        <div class="link"><a [routerLink]="['/home']" fragment="proyectos">Proyectos</a></div>
+        <div class="link"><a [routerLink]="['/home']" fragment="contacto">Contacto</a></div>
     </div>
 </div>
-

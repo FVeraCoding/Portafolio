@@ -13,9 +13,14 @@
 
 .contenedor-links {
     display: flex;
-    align-items: center;
+    align-items: space;
+    justify-content: space-between;
     width: 30%;
-    gap: 3rem;
+    margin-right: 5rem;
+}
+
+.link{
+    min-width: 5rem;
 }
 
 .link a {
