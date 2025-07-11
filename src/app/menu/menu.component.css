@@ -34,3 +34,23 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+@media (max-width: 780px){ 
+    .menu-general{
+        flex-direction: column;
+    }
+
+    .nav-bar-title{
+        margin-left: 0px;
+    }
+
+    .contenedor-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        gap: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    
+}
